@@ -13,8 +13,8 @@ import random
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Vishal@1025",
-    database="fitness_tracker"
+    password="your_root_password", # enter your root password
+    database="your_db_name" # enter your database name
 )
 cursor = conn.cursor()
 
