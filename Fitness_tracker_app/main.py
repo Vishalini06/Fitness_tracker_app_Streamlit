@@ -1,4 +1,3 @@
-# fitness_tracker_dashboard.py
 
 import streamlit as st
 import mysql.connector
@@ -13,8 +12,8 @@ import random
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Vishal@1025",
-    database="fitness_tracker"
+    password="your_root_password", # ypur mysql root password
+    database="fitness_tracker" # give your database name here
 )
 cursor = conn.cursor()
 
