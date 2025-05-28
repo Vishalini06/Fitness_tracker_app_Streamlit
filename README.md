@@ -83,7 +83,7 @@ FitVerse_AI/
 - Weekly workout chart  
 - Goal progress (half pie chart)  
 - Login consistency messages  
-![Dashboard](assets/dashboard_charts.png)
+![Image](https://github.com/user-attachments/assets/2e8d7dc8-813a-4d28-9c14-7d6912d02b19)
 
 ### 🤖 Chatbot  
 Get smart answers to any fitness-related question  
