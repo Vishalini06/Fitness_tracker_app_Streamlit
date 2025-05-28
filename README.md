@@ -5,10 +5,10 @@
 
 ## 📂 Assets 
 - All screenshots of the application's features are available in the assets/ folder
-- 
+
 ## 🎥 Full Functionality Demo
 - Watch the full project demo here: Video Link
----
+  
 ## 🚀 Features
 
 - 📝 **User Registration & Login**  
