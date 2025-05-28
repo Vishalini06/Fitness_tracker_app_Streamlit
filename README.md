@@ -7,7 +7,7 @@
 - All screenshots of the application's features are available in the assets/ folder
 
 ## 🎥 Full Functionality Demo
-- Watch the full project demo here: [Video Link](https://www.linkedin.com/posts/activity-7333531955902169090-k171?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEKXLkgB2qBFMFjR53xem7E4j3dTDfyCo58)
+- Watch the full project demo here: [Video Link](https://www.linkedin.com/posts/vishalini-k-148196272_ai-aichatbot-streamlit-activity-7333544838790828034-WAee?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEKXLkgB2qBFMFjR53xem7E4j3dTDfyCo58)
   
 ## 🚀 Features
 
