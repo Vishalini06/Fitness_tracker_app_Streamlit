@@ -1,4 +1,3 @@
-# fitness_tracker_dashboard.py
 
 import streamlit as st
 import mysql.connector
@@ -9,12 +8,11 @@ import random
 
 
 
-# Database connection
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="your_root_password", # enter your root password
-    database="your_db_name" # enter your database name
+    password="your_root_password", 
+    database="your_db_name" 
 )
 cursor = conn.cursor()
 
@@ -160,30 +158,29 @@ def view_progress(user_id):
     records = cursor.fetchall()
 
     if records:
-        # Display in Streamlit
+      
         for record in records:
             st.markdown(f"📅 **Date**: {record[0]}, 🏃‍♂️ **Exercise**: {record[1]}, ⏱️ **Duration**: {record[2]} mins, 🔥 **Calories Burned**: {record[3]}")
 
-        # Create DataFrame
+  
         df = pd.DataFrame(records, columns=["Date", "Exercise", "Duration (mins)", "Calories Burned"])
 
-        # Ensure Date is datetime (important for Excel formatting)
+      
         df["Date"] = pd.to_datetime(df["Date"])
 
-        # Write Excel file to memory
+       
         output = io.BytesIO()
         with pd.ExcelWriter(output, engine='xlsxwriter', datetime_format='yyyy-mm-dd') as writer:
             df.to_excel(writer, index=False, sheet_name='Progress')
             
-            # Set formatting
+           
             workbook  = writer.book
             worksheet = writer.sheets['Progress']
             
-            # Set column widths and format
+            
             date_format = workbook.add_format({'num_format': 'yyyy-mm-dd'})
-            worksheet.set_column('A:A', 15, date_format)  # Date column
-            worksheet.set_column('B:D', 25)  # Other columns
-
+            worksheet.set_column('A:A', 15, date_format) 
+            worksheet.set_column('B:D', 25)  
         output.seek(0)
 
         st.download_button(
@@ -268,7 +265,7 @@ def show_dashboard(user_id):
     df = df.set_index("Date").reindex(pd.date_range(week_ago, today), fill_value=0).rename_axis("Date").reset_index()
     st.line_chart(df.set_index("Date"))
 
-    # Progress bar
+  
     st.subheader("🌟 Goal Progress")
     cursor.execute("""
         SELECT goal_calories, start_date, created_at 
@@ -307,9 +304,9 @@ def show_dashboard(user_id):
             st.bar_chart(df.set_index("Exercise"))
             
 import streamlit as st
-from chatbot import load_bot  # Update with the actual name if different
+from chatbot import load_bot  
 
-# Load the bot once
+
 @st.cache_resource
 def get_fitness_qa_chain():
     return load_bot()
@@ -329,7 +326,7 @@ def fitness_bot():
 
             
 
-# UI START
+
 st.title("🏃 Fitness Tracker App")
 
 if "user_id" not in st.session_state:
