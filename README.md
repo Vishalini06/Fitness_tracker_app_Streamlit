@@ -193,16 +193,8 @@ Feel free to fork, improve, and make pull requests. Suggestions to enhance the c
 
 ---
 
-## 🛡️ License
-
-This project is open-sourced under the MIT License. See the `LICENSE` file for more info.
-
----
 
 ## 🙋‍♀️ Developed by
 
 **Vishalini**  
-🎓 Artificial Intelligence & Data Science  
-📍 Erode Sengunthar Engineering College  
-📬 Email: your_email@example.com  
-🌐 [LinkedIn](https://linkedin.com/in/yourprofile)
+
