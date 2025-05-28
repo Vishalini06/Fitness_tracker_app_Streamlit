@@ -4,7 +4,12 @@
 **FitVerse AI** is a smart, interactive fitness tracker built with **Streamlit** and **MySQL**, enhanced with a personalized **AI chatbot** for fitness guidance. The app helps users manage workouts, track goals, visualize progress, and receive customized health tips. Whether you're a beginner or fitness enthusiast, FitVerse AI empowers you to take control of your fitness journey.
 
 ---
-
+## 📂 Assets 
+- All screenshots of the application's features are available in the assets/ folder.
+---
+## 🎥 Full Functionality Demo
+- Watch the full project demo here: Video Link
+---
 ## 🚀 Features
 
 - 📝 **User Registration & Login**  
@@ -87,7 +92,7 @@ FitVerse_AI/
 
 ### 🤖 Chatbot  
 Get smart answers to any fitness-related question  
-![Chatbot](assets/chatbot.png)
+![Image](https://github.com/user-attachments/assets/118fc442-2e26-4db8-af46-6c27fd7bc454)
 
 ---
 
