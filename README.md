@@ -77,7 +77,7 @@ FitVerse_AI/
 ## 🖼️ Screenshots
 
 ### 🔐 Login Page  
-![Login Page](assets/login.png)
+![image alt]([assets/login.png](https://github.com/Vishalini06/Fitness_tracker_app_Streamlit/blob/fa8d099e3b0144212da426d9dadc100d5d0ac876/Fitness_tracker_app/assets/register.png))
 
 ### 📊 Dashboard with Charts  
 - Weekly workout chart  
