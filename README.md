@@ -202,6 +202,6 @@ Feel free to fork, improve, and make pull requests. Suggestions to enhance the c
 
 ## 🛠️ Crafted With Passion By
 
-`<Vishalini />`
+👩‍💻 Vishalini — Turning Ideas Into Impact.
 
 
